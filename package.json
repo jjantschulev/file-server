@@ -1,0 +1,12 @@
+{
+  "name": "file-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kraken22/file-server",
+  "author": "Jordan Jantschulev",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
