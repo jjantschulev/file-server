@@ -1,0 +1,8 @@
+{
+    "editor.detectIndentation": false,
+    "eslint.enable": true,
+    "eslint.packageManager": "yarn",
+    "eslint.alwaysShowStatus": true,
+    "eslint.autoFixOnSave": true,
+    "prettier.eslintIntegration": true
+}

@@ -1,12 +1,26 @@
 {
-  "name": "file-server",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/kraken22/file-server",
-  "author": "Jordan Jantschulev",
-  "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "file-server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node_modules/.bin/nodemon index.js"
+    },
+    "repository": "https://github.com/kraken22/file-server",
+    "author": "Jordan Jantschulev",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "dotenv": "^8.0.0",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.1.5",
+        "jsonwebtoken": "^8.5.1",
+        "pg": "^7.12.1",
+        "shortid": "^2.2.14"
+    },
+    "devDependencies": {
+        "eslint": "^6.1.0",
+        "nodemon": "^1.19.1"
+    }
 }

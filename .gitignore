@@ -89,3 +89,6 @@ typings/
 
 # Files:
 files/*
+
+# JSON Database
+db/*
